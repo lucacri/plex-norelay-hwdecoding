@@ -1,5 +1,7 @@
 FROM linuxserver/plex:latest
 
+ARG CACHEBUST=20191028
+
 # add scripts to modify plex binaries 
 COPY root/ /
 
